@@ -18,7 +18,6 @@
 #include "..\examples\HW_TRICYCLE_V2001.h"
 #include <PIDT_IR.h>
 #include <TimerOne.h>
-#include <SoftWatchDog.h>
 
 #define USER_MOTOR MY_ELEGO_GM
 #include <Motors.h>
@@ -88,7 +87,6 @@ const uint32_t uiAccel = 2000L;
 #endif
 char c[128];
 uint32_t ui_iAccel = 0L;
-WATCH W1;
 
 	for (i = 0; i < 10; i++){
 		SePLN();
