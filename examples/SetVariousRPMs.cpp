@@ -15,7 +15,7 @@
 #include <avr8-stub.h>
 #include <SW_Debug.h>
 #endif
-#include "..\eamples\HW_TRICYCLE_V2001.h"
+#include "..\examples\HW_TRICYCLE_V2001.h"
 #include <PIDT_IR.h>
 #include <TimerOne.h>
 #include <SoftWatchDog.h>
