@@ -1,0 +1,41 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PIDT_IR			KEYWORD1
+regVars			KEYWORD1
+contVars		KEYWORD1
+tReglerTyp		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Init			KEYWORD2
+getRegelParam	KEYWORD2
+setRegelParam	KEYWORD2
+setRegler		KEYWORD2
+setReglerIR		KEYWORD2
+setSpeed		KEYWORD2
+getSollSpeed	KEYWORD2
+getIstSpeed		KEYWORD2
+setAccel		KEYWORD2
+getSpeedStat	KEYWORD2
+get_regVars		KEYWORD2
+get_contVars	KEYWORD2
+get_lvSollAcc	KEYWORD2
+get_AccCnt		KEYWORD2
+get_aktAbw		KEYWORD2
+get_taskCnt		KEYWORD2
+getTacho		KEYWORD2
+
+_ulTacho		KEYWORD2
+_ulTachoCnt		KEYWORD2
+_bTacho			KEYWORD2
+_bAccel			KEYWORD2
+_ulLastChange	KEYWORD2
+
+######################################
+# Constants (LITERAL1)
+#######################################
+KEY_NONE    LITERAL1
