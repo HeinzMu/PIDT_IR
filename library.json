@@ -1,15 +1,25 @@
 {
-  "name": "PIDT_IR",
-  "keywords": "controller",
-  "description": "Allow to use a p, i, d, pi, pd, pid or pts controller",
-  "repository":
-  {
-    "type": "git",
-    "url": "https://github.com/HeinzMu/PIDT_IR.git"
-  },
-  "frameworks": "arduino",
-  "platforms":
-  [
-    "atmelavr"
-  ]
+	"name": "PID_IR",
+	"version": "0.1.0",
+	"description": "Interrupt controlled regulator (p, i, d, pi, pd, pid or pts) for brushed dc motors",
+	"repository": {
+		"url": "https://github.com/HeinzMu/PIDT_IR.git"
+		"type": "git",
+	},
+	"keywords": [
+		"avr",
+		"controller",
+		"regulator",
+		"mega2560"
+	],
+	"frameworks": "arduino",
+	"platforms": [
+		"atmelavr"
+	],
+	"authors": [ {
+		"maintainer": true,
+		"name": "Heinz Müller",
+		"url": null,
+		"email": "heinz.mueller.ger@gmail.com
+	} ]
 }
