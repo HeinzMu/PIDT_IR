@@ -3,8 +3,7 @@
 #######################################
 
 PIDT_IR			KEYWORD1
-regVars			KEYWORD1
-contVars		KEYWORD1
+tVars			KEYWORD1
 tReglerTyp		KEYWORD1
 
 #######################################
@@ -19,21 +18,19 @@ setReglerIR		KEYWORD2
 setSpeed		KEYWORD2
 getSollSpeed	KEYWORD2
 getIstSpeed		KEYWORD2
-setAccel		KEYWORD2
+setSollAccel	KEYWORD2
+getSollAccel	KEYWORD2
 getSpeedStat	KEYWORD2
 get_regVars		KEYWORD2
 get_contVars	KEYWORD2
 get_lvSollAcc	KEYWORD2
-get_AccCnt		KEYWORD2
-get_aktAbw		KEYWORD2
-get_taskCnt		KEYWORD2
 getTacho		KEYWORD2
 
 _ulTacho		KEYWORD2
 _ulTachoCnt		KEYWORD2
 _bTacho			KEYWORD2
-_bAccel			KEYWORD2
 _ulLastChange	KEYWORD2
+b_Accel			KEYWORD2
 
 ######################################
 # Constants (LITERAL1)
