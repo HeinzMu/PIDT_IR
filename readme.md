@@ -1,7 +1,10 @@
-#PIDT_IR Library
+#PIDT_IR Library#
 
 With this library you can control brushed dc motors having an encoder attached with the Arduino Mega2560.
-The library is NOT tested for any other board.
+The regulator works with a timer interrupt and is called every 5 milli Seconds. To get a accurate RPM result Timer3
+is used to generate a fast PWM signal at output 2 and 3.
+
+The library is NOT tested for any other board than Arduino Mega2560.
 
 Provided functions:
 
@@ -24,10 +27,8 @@ Provided functions:
 - void getTacho(void);
 
 
-For all boards not supporting Timer3 it will not work because Timer3 is used for fast PWM.
 
 The example 'Var_RPMs' is prepared to debug with the avr_debugger.
-Using it with the avr_degubber the debugger must be enabled.
 If it doesn't work try another interrupt for the degugger.
 
 The example 'cli4_PIDT_IR' is a command line interface for use with the serial monitor.
